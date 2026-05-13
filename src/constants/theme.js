@@ -1,0 +1,40 @@
+export const theme = {
+  colors: {
+    primary: '#ba3200',
+    primaryContainer: '#ff7851',
+    secondary: '#742ffc',
+    secondaryContainer: '#d9caff',
+    tertiary: '#00751f',
+    tertiaryContainer: '#91f78e',
+    background: '#fffbff',
+    surface: '#fffbff',
+    surfaceContainerLowest: '#ffffff',
+    surfaceContainerLow: '#fdf9f5',
+    surfaceContainer: '#f7f3ef',
+    surfaceContainerHigh: '#f1edea',
+    surfaceContainerHighest: '#ebe7e4',
+    onSurface: '#393836',
+    onSurfaceVariant: '#666462',
+    outlineVariant: '#bcb9b6',
+  },
+  typography: {
+    displayLg: { fontFamily: 'sans-serif', fontSize: 56, fontWeight: 'bold' },
+    headlineMd: { fontFamily: 'sans-serif', fontSize: 28, fontWeight: 'bold' },
+    titleMd: { fontFamily: 'sans-serif', fontSize: 18, fontWeight: '600' },
+    bodyMd: { fontFamily: 'sans-serif', fontSize: 14, fontWeight: 'normal' },
+    labelMd: { fontFamily: 'sans-serif', fontSize: 12, fontWeight: '500' },
+  },
+  spacing: {
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+  },
+  borderRadius: {
+    sm: 8,
+    md: 24,
+    lg: 32,
+    pill: 9999,
+  }
+};
